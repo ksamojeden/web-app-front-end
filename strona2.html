@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <title>Czynniki wpływające na jakość snu</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+	<title>Czynniki wpływające na jakość snu</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.com/libraries/bootstrap-slider">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" href="bootstrap-slider.min.css">
+	<script type="text/javascript" src="bootstrap-slider.min.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -23,69 +27,135 @@
 	<form>
 	    <fieldset style="margin-top: 15px" class="form-group">
 	      <legend>1. Często  miewam  huśtawki  nastrojów</legend>
-	      <div class="slider">
-		    <input type="range" name="points" min="1" max="5" step="1">
-		  </div>
+	      <input name="q2-1" type="text"
+			  data-provide="slider"
+			  data-slider-ticks="[1, 2, 3, 4, 5]"
+			  data-slider-ticks-labels='["Zdecydowanie nie", "Raczej nie", "Nie wiem", "Raczej tak", "Zdecydowanie tak"]'
+			  data-slider-min="1"
+			  data-slider-max="5"
+			  data-slider-step="1"
+			  data-slider-value="3"
+			  data-slider-tooltip="hide">
 		</fieldset>
 		<fieldset style="margin-top: 15px" class="form-group">
 	      <legend>2. Łatwo  mnie  wyprowadzić  z  równowagi</legend>
-	      <div class="slider">
-		    <input type="range" name="points" min="1" max="5" step="1">
-		  </div>
+	      <input name="q2-2" type="text"
+			  data-provide="slider"
+			  data-slider-ticks="[1, 2, 3, 4, 5]"
+			  data-slider-ticks-labels='["Zdecydowanie nie", "Raczej nie", "Nie wiem", "Raczej tak", "Zdecydowanie tak"]'
+			  data-slider-min="1"
+			  data-slider-max="5"
+			  data-slider-step="1"
+			  data-slider-value="3"
+			  data-slider-tooltip="hide">
 		</fieldset>
 		<fieldset style="margin-top: 15px" class="form-group">
 	      <legend>3. Łatwo  się  zniechęcam</legend>
-	      <div class="slider">
-		    <input type="range" name="points" min="1" max="5" step="1">
-		  </div>
+	      <input name="q2-3" type="text"
+			  data-provide="slider"
+			  data-slider-ticks="[1, 2, 3, 4, 5]"
+			  data-slider-ticks-labels='["Zdecydowanie nie", "Raczej nie", "Nie wiem", "Raczej tak", "Zdecydowanie tak"]'
+			  data-slider-min="1"
+			  data-slider-max="5"
+			  data-slider-step="1"
+			  data-slider-value="3"
+			  data-slider-tooltip="hide">
 		</fieldset>
 		<fieldset style="margin-top: 15px" class="form-group">
 	      <legend>4. Często  czuję się  przytłoczony  codziennymi  wydarzeniami</legend>
-	      <div class="slider">
-		    <input type="range" name="points" min="1" max="5" step="1">
-		  </div>
+	      <input name="q2-4" type="text"
+			  data-provide="slider"
+			  data-slider-ticks="[1, 2, 3, 4, 5]"
+			  data-slider-ticks-labels='["Zdecydowanie nie", "Raczej nie", "Nie wiem", "Raczej tak", "Zdecydowanie tak"]'
+			  data-slider-min="1"
+			  data-slider-max="5"
+			  data-slider-step="1"
+			  data-slider-value="3"
+			  data-slider-tooltip="hide">
 		</fieldset>
 		<fieldset style="margin-top: 15px" class="form-group">
 	      <legend>5. Często  się  martwię</legend>
-	      <div class="slider">
-		    <input type="range" name="points" min="1" max="5" step="1">
-		  </div>
+	      <input name="q2-5" type="text"
+			  data-provide="slider"
+			  data-slider-ticks="[1, 2, 3, 4, 5]"
+			  data-slider-ticks-labels='["Zdecydowanie nie", "Raczej nie", "Nie wiem", "Raczej tak", "Zdecydowanie tak"]'
+			  data-slider-min="1"
+			  data-slider-max="5"
+			  data-slider-step="1"
+			  data-slider-value="3"
+			  data-slider-tooltip="hide">
 		</fieldset>
 		<fieldset style="margin-top: 15px" class="form-group">
 	      <legend>6. Panuję  nad  swoimi  emocjami</legend>
-	      <div class="slider">
-		    <input type="range" name="points" min="1" max="5" step="1">
-		  </div>
+	      <input name="q2-6" type="text"
+			  data-provide="slider"
+			  data-slider-ticks="[1, 2, 3, 4, 5]"
+			  data-slider-ticks-labels='["Zdecydowanie nie", "Raczej nie", "Nie wiem", "Raczej tak", "Zdecydowanie tak"]'
+			  data-slider-min="1"
+			  data-slider-max="5"
+			  data-slider-step="1"
+			  data-slider-value="3"
+			  data-slider-tooltip="hide">
 		</fieldset>
 		<fieldset style="margin-top: 15px" class="form-group">
 	      <legend>7. Łatwo  panikuję</legend>
-	      <div class="slider">
-		    <input type="range" name="points" min="1" max="5" step="1">
-		  </div>
+	      <input name="q2-7" type="text"
+			  data-provide="slider"
+			  data-slider-ticks="[1, 2, 3, 4, 5]"
+			  data-slider-ticks-labels='["Zdecydowanie nie", "Raczej nie", "Nie wiem", "Raczej tak", "Zdecydowanie tak"]'
+			  data-slider-min="1"
+			  data-slider-max="5"
+			  data-slider-step="1"
+			  data-slider-value="3"
+			  data-slider-tooltip="hide">
 		</fieldset>
 		<fieldset style="margin-top: 15px" class="form-group">
 	      <legend>8. Dobrze  mi  ze  sobą</legend>
-	      <div class="slider">
-		    <input type="range" name="points" min="1" max="5" step="1">
-		  </div>
+	      <input name="q2-8" type="text"
+			  data-provide="slider"
+			  data-slider-ticks="[1, 2, 3, 4, 5]"
+			  data-slider-ticks-labels='["Zdecydowanie nie", "Raczej nie", "Nie wiem", "Raczej tak", "Zdecydowanie tak"]'
+			  data-slider-min="1"
+			  data-slider-max="5"
+			  data-slider-step="1"
+			  data-slider-value="3"
+			  data-slider-tooltip="hide">
 		</fieldset>
 		<fieldset style="margin-top: 15px" class="form-group">
 	      <legend>9. Rzadko  się  irytuję</legend>
-	      <div class="slider">
-		    <input type="range" name="points" min="1" max="5" step="1">
-		  </div>
+	      <input name="q2-9" type="text"
+			  data-provide="slider"
+			  data-slider-ticks="[1, 2, 3, 4, 5]"
+			  data-slider-ticks-labels='["Zdecydowanie nie", "Raczej nie", "Nie wiem", "Raczej tak", "Zdecydowanie tak"]'
+			  data-slider-min="1"
+			  data-slider-max="5"
+			  data-slider-step="1"
+			  data-slider-value="3"
+			  data-slider-tooltip="hide">
 		</fieldset>
 		<fieldset style="margin-top: 15px" class="form-group">
 	      <legend>10. Będąc  pod  presją  zachowuję  spokój</legend>
-	      <div class="slider">
-		    <input type="range" name="points" min="1" max="5" step="1">
-		  </div>
+	      <input name="q2-10" type="text"
+			  data-provide="slider"
+			  data-slider-ticks="[1, 2, 3, 4, 5]"
+			  data-slider-ticks-labels='["Zdecydowanie nie", "Raczej nie", "Nie wiem", "Raczej tak", "Zdecydowanie tak"]'
+			  data-slider-min="1"
+			  data-slider-max="5"
+			  data-slider-step="1"
+			  data-slider-value="3"
+			  data-slider-tooltip="hide">
 		</fieldset>
 		<fieldset style="margin-top: 15px" class="form-group">
 	      <legend>11. Zwykle  jestem  zrelaksowany</legend>
-	      <div class="slider">
-		    <input type="range" name="points" min="1" max="5" step="1">
-		  </div>
+	      <input name="q2-11" type="text"
+			  data-provide="slider"
+			  data-slider-ticks="[1, 2, 3, 4, 5]"
+			  data-slider-ticks-labels='["Zdecydowanie nie", "Raczej nie", "Nie wiem", "Raczej tak", "Zdecydowanie tak"]'
+			  data-slider-min="1"
+			  data-slider-max="5"
+			  data-slider-step="1"
+			  data-slider-value="3"
+			  data-slider-tooltip="hide">
 		</fieldset>
 		
 		<div style="margin-top: 15px" class="container">
@@ -96,7 +166,7 @@
 	  
 	</form>
 	</div>
-
+	
 	<div class="container" style="margin:40px"></div>
 		 
 	<footer class="fixed-bottom container" style="padding-bottom:10px; padding-top:10px; background-color: white">
