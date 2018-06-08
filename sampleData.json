@@ -1,0 +1,14 @@
+{
+  "cols": [
+        {"id":"","label":"Stopień neurotyczności","pattern":"","type":"string"},
+        {"id":"","label":"Liczba osób","pattern":"","type":"number"}
+      ],
+  "rows": [
+        {"c":[{"v":"0","f":null},{"v":10,"f":null}]},
+        {"c":[{"v":"20","f":null},{"v":20,"f":null}]},
+        {"c":[{"v":"40","f":null},{"v":30,"f":null}]},
+        {"c":[{"v":"60","f":null},{"v":40,"f":null}]},
+        {"c":[{"v":"80","f":null},{"v":50,"f":null}]},
+		{"c":[{"v":"100","f":null},{"v":60,"f":null}]}
+      ]
+}
