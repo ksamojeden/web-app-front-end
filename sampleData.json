@@ -1,14 +1,20 @@
 {
   "cols": [
-        {"id":"","label":"Stopień neurotyczności","pattern":"","type":"string"},
-        {"id":"","label":"Liczba osób","pattern":"","type":"number"}
+        {"id":"","label":"Poziom neurotyczności","pattern":"","type":"string"},
+        {"id":"","label":"Liczba osób","pattern":"","type":"number"},
+		{"id": "", "label": "Twój wynik Liczba osób","pattern":"","type":"number"}
       ],
   "rows": [
-        {"c":[{"v":"0","f":null},{"v":10,"f":null}]},
-        {"c":[{"v":"20","f":null},{"v":20,"f":null}]},
-        {"c":[{"v":"40","f":null},{"v":30,"f":null}]},
-        {"c":[{"v":"60","f":null},{"v":40,"f":null}]},
-        {"c":[{"v":"80","f":null},{"v":50,"f":null}]},
-		{"c":[{"v":"100","f":null},{"v":60,"f":null}]}
+        {"c":[{"v":"0 - 10","f":null},{"v":10,"f":null},{"v":0,"f":null}]},
+        {"c":[{"v":"10 - 20","f":null},{"v":20,"f":null},{"v":0,"f":null}]},
+        {"c":[{"v":"20 - 30","f":null},{"v":30,"f":null},{"v":0,"f":null}]},
+        {"c":[{"v":"30 - 40","f":null},{"v":40,"f":null},{"v":0,"f":null}]},
+        {"c":[{"v":"40 - 50","f":null},{"v":0,"f":null},{"v":50,"f":null}]},
+		{"c":[{"v":"50 - 60","f":null},{"v":60,"f":null},{"v":0,"f":null}]},
+		{"c":[{"v":"60 - 70","f":null},{"v":70,"f":null},{"v":0,"f":null}]},
+		{"c":[{"v":"70 - 80","f":null},{"v":80,"f":null},{"v":0,"f":null}]},
+		{"c":[{"v":"80 - 90","f":null},{"v":90,"f":null},{"v":0,"f":null}]},
+		{"c":[{"v":"90 - 100","f":null},{"v":100,"f":null},{"v":0,"f":null}]}
       ]
 }
+
